@@ -1,0 +1,65 @@
+﻿HOMEWORK WEEK 5-6: Abigail Unwin
+
+
+TASK 1 (Agile Techniques)
+Question 1
+SCRUM CEREMONIES
+·        Product backlog refinement
+This is a collaborative process between the team that will own the product (the client) and the team creating the product (the developers), it is an ongoing process to make sure the project is meeting the requirements. Things that could be discussed during product refinement are: the priority order of tasks, what the product should do, how it should look and feel, what it shouldn’t do, any limitations that need to be addressed, the time it will take to develop the project – this is broken down into much smaller activities that are needed to be completed and these are prioritized.  
+·        Sprint planning
+Sprint planning starts the sprint, it lays out all of the work that needs to be completed to create the product, or for large projects the next small part of the project that needs to be completed by the team. The plan will include everyone in the team, although often individuals will work on their own part of the project and it will come together to form one collaborative effort.  
+·        Daily scrum
+A daily scrum is a daily meeting with the team to discuss the progress they are making with the development that they are doing towards the sprint, it is held every day within the sprint. Developers will discuss what they have done already, any challenges they are facing and what they plan to do that day towards the task that needs to be completed. 
+·        Sprint review
+This happens upon towards the end of the sprint, the team meets together and discusses whether they have completed all of the work that is required, to review the work that has been completed and to discuss whether any amendments need to be made to the work
+·        Sprint retrospective
+This happens upon completion of the sprint, it involves discussing what went well within the sprint, and what didn’t go so well so that the team can improve for the next sprint. 
+ SCRUM ROLES
+·        ScrumMaster
+A scrum master oversees and manages the scrum, they make sure that everyone knows what they are doing and that team members are effectively communicating and that they are organized. 
+·        Product Owner
+The product owner makes sure that the overall vision of the project is on track, they coordinate with the scrum master to oversee the project goals and they act on behalf of the customer to make sure that the final product will be a success.
+·        Development Team
+The development team are the team of developers working on a project within the scrum, they are the people that can implement the code that is needed to complete the next part of the project. 
+Question 2
+Tasks: 
+· User Interface is needed for the booking system that includes a booking form which takes in client information e.g. name, contact number and allows them to select a class. This can be worked on by one person. This will need to be created second so that the data is available to be passed to an SQL database and then validated by the python backend system. 
+· The interface should also display a timetable of classes and this should be able to be updated easily by the end client without looking at the back end code. This can be worked on by another person. This will need to be created first so that the user can select a class from the timetable. 
+· A SQL database will need to be set up and linked so that every time the user confirms a class, their name, contact details and the class that they are booked into is added to a table so that the system can remember how many people are booked onto the class and who is attending the class. This can be allocated to another person. The database can be set up in parallel to the time table being created, but data won’t come across to the SQL database until the booking form is created. 
+· The python backend system will need to keep count of how many people are attending each class, and create functionality to alert the user via the UI that the class is full and can no longer be booked onto. This can be worked on by another person. This could be worked on in parallel to the booking system, it will declare how many people can attend a class. 
+· The python backend system will need to validate the input by the user, e.g. whether contact details are valid or whether the class that they have chosen is a valid class for example, it has not already started. This can be worked on by another team member. This can also be worked on in parallel to creating the booking system, the backend developer can work in collaboration with the UI developer to make sure certain fields are required and send a validation message if they are not, or to make sure that certain fields are valid e.g. phone number is a real number and then send a validation message if not. 
+
+TASK 2 (SQL)
+Question 1
+Design a cinema booking system.
+Key Requirements: 
+- Easy to use user interface that allows the user to choose a cinema, view film times for the upcoming week, book a film and get an email confirmation that the film has been booked. This should also allow the user to log in to their own account to view the films that they have booked.
+- Customers should be able to choose where they are sat in the cinema screen
+- A database that stores the client’s name, booking reference, film name, date and time to store all of the cinema bookings
+- Another database that stores all of the films that are showing and the dates and times that they are playing, this can be used in the code
+- You should be able to view the cinema booking system on a phone, tablet and computer
+- You should be able to cancel cinema bookings and get a refund
+- All payments should be secure and you should be able to pay with multiple payment methods E.g. Visa, Mastercard, PayPal 
+Main Considerations: 
+- Which kind of database to use for the client information and film information E.g. SQL or NoSQL
+- Which language to code the system in: Python, JS, C# ect. 
+- Will a server need to be set up to communicate to the front end and the database and if so, what kind of server E.g. Node.js ect
+- The design of the website will need to be considered and refined by the client, the look and feel will determine the brand e.g. traditional or modern cinema
+- Will an external payment system be incorporated to the website e.g. Sage, Barclaycard, Paypal, ApplyPay, GooglePay, how can you make sure this is secure
+Common or Big Problems: 
+- Need to make the website secure so that client information is not accessible
+- Need to make sure that it can handle traffic, it does not slow down or crash if too many people are trying to book films at the same time
+- Need to make sure people cannot book the same seat 
+- Need to make sure you cannot overbook the film so once all of the seats are taken you cannot buy a ticket
+- Need to make sure once a ticket is refunded that the seats become available again
+What components or tools would you potentially use?
+- An IDE to create the code e.g. Visual Studio, Pycharm
+- Database
+- Frameworks e.g. React, Angular, Blazor
+- Code languages e.g. Python, JS, CSS, HTML, 
+- External payment system 
+- Design Software e.g. Adobe
+
+
+
+
